@@ -9,6 +9,7 @@ int main() {
             is_increasing = 0;
             break;
         }
+        prev = current;
     }
     printf((is_increasing) ? "YES\n" : "NO\n");
 }
